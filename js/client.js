@@ -2143,9 +2143,11 @@
 			var name = data.name;
 			var avatar = data.avatar || '';
 			var groupDetails = {
+				'\u2301': "Owner (\u2301)",
 				'#': "Room Owner (#)",
 				'~': "Administrator (~)",
 				'&': "Leader (&amp;)",
+				'$': "Head Moderator ($)"
 				'@': "Moderator (@)",
 				'%': "Driver (%)",
 				'*': "Bot (*)",
